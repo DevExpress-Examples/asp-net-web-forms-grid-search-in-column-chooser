@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [AppClientCode.js](./CS/AppClientCode.js) (VB: [AppClientCode.js](./VB/AppClientCode.js))
+* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
+<!-- default file list end -->
 # ASPxGridView - How to implement search in the Column Chooser window
 
 
