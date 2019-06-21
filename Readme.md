@@ -5,6 +5,9 @@
 * [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
 <!-- default file list end -->
 # ASPxGridView - How to implement search in the Column Chooser window
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t591169)**
+<!-- run online end -->
 
 
 <p>This example illustrates how to add an input element to the Column Chooser window and filter columns in this window.<br>First of all, create an input element and append it to the Column Chooser dom elements:</p>
