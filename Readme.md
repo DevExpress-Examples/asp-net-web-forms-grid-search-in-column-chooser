@@ -6,7 +6,7 @@
 <!-- default file list end -->
 # ASPxGridView - How to implement search in the Column Chooser window
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t591169)**
+**[[Run Online]](https://codecentral.devexpress.com/t591169/)**
 <!-- run online end -->
 
 
