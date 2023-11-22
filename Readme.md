@@ -3,20 +3,19 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T591169)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [AppClientCode.js](./CS/AppClientCode.js) (VB: [AppClientCode.js](./VB/AppClientCode.js))
-* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
-<!-- default file list end -->
-# ASPxGridView - How to implement search in the Column Chooser window
+# Grid View for ASP.NET Web Forms - How to implement search in the column chooser window
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/t591169/)**
 <!-- run online end -->
 
+This example demonstrates how to add an input element to the column chooser window and use it to filter columns in the window.
+	
+![](grid-with-column-chooser.png)
 
-<p>This example illustrates how to add an input element to the Column Chooser window and filter columns in this window.<br>First of all, create an input element and append it to the Column Chooser dom elements:</p>
+## Implementation Details
 
+Create an input element and append it to the column chooser dom elements.
 
 ```js
 var _createElement = function (tag, parent) {
@@ -42,9 +41,9 @@ var _createElement = function (tag, parent) {
 }
 ```
 
+Note, that to correctly append the input element to the column chooser window, handle the client-side `Init` and `EndCallback` events and add the input element there.
 
-<p>Note, that to correctly append the input element to the Column Chooser window, handle the client-side Init and EndCallback events and add the input element there.<br>After that, handle the onchange event and search for a typed value through the html table that contains field names:</p>
-
+Handle the `onchange` event and search for a typed value through the html table that contains field names.
 
 ```js
 that.onchange = function () {
@@ -68,8 +67,7 @@ that.onchange = function () {
 }
 ```
 
-
-<p>It is possible to hide a row with a field name that doesn't contain the typed text by setting a certain CSS class to the row element:</p>
+Hide a row with a field name that doesn't contain the typed text by setting a certain CSS class to the row element.
 
 
 ```css
@@ -78,8 +76,7 @@ tr.cw-hide {
 }
 ```
 
+## Files to Review
 
-
-<br/>
-
-
+* [AppClientCode.js](./CS/AppClientCode.js) (VB: [AppClientCode.js](./VB/AppClientCode.js))
+* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
