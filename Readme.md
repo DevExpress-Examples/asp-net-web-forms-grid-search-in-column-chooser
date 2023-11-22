@@ -40,7 +40,7 @@ var _createElement = function (tag, parent) {
 }
 ```
 
-Note, that to correctly append the input element to the column chooser window, handle the client-side `Init` and `EndCallback` events and add the input element there.
+To correctly append the input element to the column chooser window, handle the client `Init` and `EndCallback` events and add the input element there.
 
 Handle the `onchange` event and search for a typed value through the html table that contains field names.
 
