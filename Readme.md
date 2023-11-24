@@ -6,7 +6,7 @@
 
 # Grid View for ASP.NET Web Forms - How to implement search in the column chooser window
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t591169/)**
+**[[Run Online]](https://codecentral.devexpress.com/128534866/)**
 <!-- run online end -->
 
 This example demonstrates how to add an input element to the column chooser window and use it to filter columns in the window.
