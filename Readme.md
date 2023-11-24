@@ -14,7 +14,7 @@ This example demonstrates how to add an input element to the column chooser wi
 
 ## Implementation Details
 
-Create an input element and append it to the column chooser dom elements.
+Create an input element and append it to the column chooser DOM elements.
 
 ```js
 var _createElement = function (tag, parent) {
@@ -66,7 +66,7 @@ that.onchange = function () {
 }
 ```
 
-Hide a row with a field name that doesn't contain the typed text by setting a certain CSS class to the row element.
+Hide a row with a field name that doesn't contain the typed text by setting a specific CSS class to the row element.
 
 
 ```css
